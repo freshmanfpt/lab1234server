@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand fixed-top navigation-clean"
+        style="background: rgb(255,255,255);border-bottom: 1px solid rgb(197,197,197) ;">
+        <div class="container"><a class="navbar-brand" href="index.html"
+                style="width: 70.2604px;color: #000000;font-family: 'Roboto Condensed', sans-serif;font-size: 40px;"><i
+                    class="icon ion-fireball" style="color: rgb(255,88,100);"></i>&nbsp; Tinder</a><button
+                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"></button>
+            <div class="collapse navbar-collapse" id="navcol-1"></div>
+        </div>
+    </nav>
+    <section class="register-photo" style="background: rgba(0,0,0,0);">
+        <div class="form-container">
+            <form method="post">
+                <h3 class="text-uppercase text-center" style="transform: skew(-13deg);"><strong>Create</strong> an
+                    account.</h3>
+                <div class="form-group"><input class="form-control" type="text" name="email"
+                        placeholder="Email or Phone Number" id="userName"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password"
+                        placeholder="Password" id="userPassword"></div>
+                <div class="form-group"><input class="form-control" type="text" name="FirstName"
+                        placeholder="First Name" style="background: rgb(247, 249, 252);"
+                        id="userFirstName"></div>
+                <div class="form-group"><input class="form-control-file" type="file"
+                        style="border-bottom-color: #dfe7f1;background: rgb(247,249,252);"
+                        id="userAvatar"></div>
+                <div class="form-group"><input class="form-control" type="date"
+                    id="userBirthday"></div>
+                <div class="form-group"><select class="form-control"
+                    id="userGender">
+                        <option value="Not Selected" selected="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Else">Else</option>
+                        <option value="Private">Private</option>
+                    </select></div>
+                <div class="form-group"><textarea class="form-control" name="Description"
+                        placeholder="Description"
+                        id="userDescription"></textarea></div>
+                <div class="form-group"><input class="form-control" type="text" name="Sexual Orientaion"
+                        placeholder="Sexual Orientaion"
+                        id="userSexual"></div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit"
+                    id="userAdd">Sign Up</button></div><a
+                    class="already" href="Login.html">You already have an account? Login here.</a>
+            </form>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="SignUpFunc.js"></script>
+</body>
+
+</html>
